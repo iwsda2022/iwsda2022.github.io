@@ -109,7 +109,7 @@
 	if($('.main-slider .tp-banner').length){
 
 		jQuery('.main-slider .tp-banner').show().revolution({
-			dottedOverlay:"yes",
+			// dottedOverlay:"yes",
 			delay:1000000000000000000000000,
 			startwidth:1200,
 			startheight:680,

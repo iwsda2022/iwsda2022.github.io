@@ -52,6 +52,8 @@ body {
 	-moz-font-smoothing: antialiased;
 }
 
+li {list-style-type:none;}
+
 a{
 	text-decoration:none;
 	cursor:pointer;
