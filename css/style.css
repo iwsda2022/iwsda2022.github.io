@@ -67,7 +67,7 @@ a:hover,a:focus,a:visited{
 
 h1,h2,h3,h4,h5,h6 {
 	position:relative;
-	
+	font-family: 'Times New Roman', Times, serif;
 	font-weight:normal;
 	margin:0px;
 	background:none;
@@ -341,10 +341,12 @@ img{
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
 	transition:all 300ms ease;	
+
 }
 
 .main-menu .navbar-collapse{
-	padding:0px;	
+	padding:0px;
+	margin-right: 100px;	
 }
 
 .main-menu .navigation{
@@ -868,6 +870,7 @@ img{
 	padding-top:10px;
 	color: black;
 	font-size: 16px;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .sec-title .text2{
@@ -877,6 +880,7 @@ img{
 	color: black;
 	font-size: 20px;
 	text-align: left;
+	font-family: 'Times New Roman', Times, serif;
 }
 .sec-title ul,li{
 	list-style:square;
@@ -895,16 +899,19 @@ img{
 .about-section{
 	position:relative;
 	padding: 110px 0px 80px;
+	margin-top: -5%;
 }
 
 .about-block{
 	position:relative;
 	margin-bottom: 35px;
+	/* border: red solid 2px; */
 }
 
 .about-block .inner-box{
 	position:relative;
 	padding-right: 50px;
+	/* border: black solid 2px; */
 }
 
 .about-block .inner-box .icon-box{
@@ -918,6 +925,14 @@ img{
 	font-size: 34px;
 	border-radius: 10px;
 	background-color:#f1f1f1;
+}
+
+#i2 {
+	margin-left: 45px;
+}
+
+#i3 {
+	margin-left: 90px;
 }
 
 .about-block .inner-box .icon-box .icon{
@@ -934,10 +949,21 @@ img{
 	padding-left: 100px;
 	display: inline-block;
 	text-transform: uppercase;
+	/* border: blue solid 2px; */
+	width: 100%;
+}
+
+.a2 {
+	margin-left: 45px;
+}
+
+.a3 {
+	margin-left: 90px;
 }
 
 .about-block .inner-box h3 a span{
 	font-weight: 700;
+	
 }
 
 .about-block .inner-box .text{
