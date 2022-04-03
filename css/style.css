@@ -351,7 +351,9 @@ img{
 
 .main-menu .navigation{
 	position:relative;
-	margin:0px;
+	margin-left:-60px;
+	/* border: #000000 solid 3px; */
+	width: 120%;
 }
 
 .main-menu .navigation > li{
